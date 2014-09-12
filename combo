@@ -1,0 +1,150 @@
+<html>
+<head>
+<h1 id="top">Film-Making Terms</h1>
+	<title>View the Source of This Page</title>
+</head>
+<body>
+	<h1>How to View the Source of This Page</h1>
+	<p>If you go to your web browser's View menu, you will see an option that allows you to see the source code behind a web page.</p>
+	<p>when the web was first taking off this was a very popular way for people to learn how web pages had been built.</p>
+	<p>Today, people stlll often view the source of pages to learn how a web page has been built.</p>
+	<p>This is how we make a word appear <b>bold.</b></p>
+	<p>Inside a product description you might see some <b>key features</b> in bold</p>
+	<p>This is how we make a word appear <i>italic</i></p>
+	<p>It's a potato <i>Solanum teberosum</i></p>
+	<p>Captain cook sailed to America on the <i>Endeavour</i></p>
+	<p>On the 4<sup>th</sup> of August you will learn about E=MC<sup>2</sup><p>
+		<p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.
+			<p>The Eath<br />gets one hundred tins heavier every day<r />due to falling space dust.</p>
+			<p>Venus is the only planet that rotates clockwise.</p>
+			<hr />
+			<p>Jupiter is bigger than all the other planets combined</p>
+			<p><strong>Beware:</strong>Picpockets operates in this area.</p>
+			<p>This toy has many small pieces and is <strong>not suitable for children under five years old.</strong></p>
+			<p> I <em>think</em> Ivy was the first.</p>
+			<p>I think <em>Ivy</em>was the first.</p>
+			<p>I think I was the <em>first</em>.</p>
+			<blockqoute cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+				<p>Did you ever stop to think, and forget to start again?</p>
+			</blockqoute>
+			<p>As A.A. Milne said.<q>Some people talk to animals. not many listen though. That's the problem.</q></p>
+			<p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theorectical physicist and cosmologist.</p>
+			<p><acronym title+"National Aeronautics and Space Administration">NASA</acronym> do some crazy space stuff.</p>
+			<p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+			<p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+			<address>
+				<p><a href="mailto:homer@example.org">homer@example.org</a></p>
+				<p>742 Evergreen Terrace, Springfield.</p>
+			</address>
+			<p>It was the <del>worst</del> <ins>best</ins> idea she had ever had.</p>
+			<p>Laptop computer:</p>
+			<p><s>Was $995</s></p>
+			<p>Now only $375</p>
+
+			<ol>
+				<li>Chop potatoes into quarters</li>
+				<li>Simmer in salted water for 15-20 minutes until tender</li>
+				<li>Heat milk, butter and nutmeg</li>
+				<li>Drain potatoes and mash</li>
+				<li>Mix in the milk mixtures</li>
+			</ol>
+
+			<ul>
+				<li>1kg King Edward potatoes</li>
+				<li>100ml milk</li>
+				<li>50g salted butter</li>
+				<li>Salted and pepper to taste</li>
+			</ul>
+
+			<dl>
+				<dt>Sashimi</dt>
+				<dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce</dd>
+				<dt>Scale</dt>
+				<dd>I don'twant miss your heart for me, You are the only way. Jesus.</dd>
+				<dd>Lead me in the way everlasting, don't ever stop, don't ever stop.</dd>
+				<dt>Scarmorze</dt>
+				<dt>Scarmorzo</dt>
+				<dd>An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)</dd>
+			</dl>
+
+			<ul>
+				<li>Mousses</li>
+				<li>Pastries
+					<ul>
+						<li>Croissant</li>
+						<li>Mille-feuille</li>
+						<li>Palmier</li>
+						<li>Profiterole</li>
+					</ul>
+				</li>
+				<li>Tarts</li>
+			</ul>
+
+<!-- 
+CHAPTER 4
+Links are the defining feature of the web because they allow you to move from one web page to another - nabling the very idea of browsing 
+Links from one website to another
+Links from one page to another on the street website
+Links from one page of a web page to another part of the same page
+Links that open in a new browser window
+Links that open in a web page to another part of the same page
+Links that start up your email program and address a new email to someone
+-->
+
+<a href="http://www.imdb.com">IMDB</a>
+<p>Movie Reviews:
+	<ul>
+		<li><a href="http://www.empireonline.com">Empire</a></li>
+		<li><a href="http://www.metacritic.com">Metacrtic</a></li>
+		<li><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a></li>
+		<li><a href="http://www.Variety.com">Variety</a></li>
+	</ul>
+</p>
+
+<p>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about-us.html">About</a></li>
+		<li><a href="movies.html">Movies</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="reviews.html">Reviews</a></li>
+		<li><a href="music/listings.html">Listings</a></li>
+		<li><a href="movies/dvd/reviews.html">Reviews</a></li>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="mailto:kehinde@stutern.com">Email Jon</a></li>
+		<li><a href="http://www.imdb.com" target="_blank ">Internet Movie Database</a></li>
+	</ul>
+</p>
+<!-- Linking to a specific type of the same page -->
+
+<a href="#arc_shot">Arc Shot</a><br />
+<a href="#interlude">Interlude</a><br />
+<a href="#prologue">Prologue</a><br /><br />
+<h2 id="arc_shot">Arc Shot</h2>
+<p>A shot in which the subject is photographed by an encircling or moving camera</p>
+<h2 id="interlude">Interlude</h2>
+<p>A brief, intervening film scene or sequence, not specfically tied to the pilot, that apperas within a film</p>
+<h2 id="prologue">Prologue</h2>
+<p>A speech, preface, introduction, or brief secen preceding the main action or pilot of a film; contrast to epilogue</p>
+<p><a href="#top">Top</a></p>
+<a href="http://www.htmlandcssbook.com/#bottom">Next</a>
+
+<!-- Linking to a specific part of another page -->
+
+<!-- Example Links -->
+<h1 id="top">Film Folk</h1>
+<h2>Festival Diary</h2>
+<p>Here are some of the film festivals we will be attending this year.<br /> Please <a href="mailto:filmfolk@example.org">contact us</a>if you would like more information</p>
+<h3>January</h3>
+<p><a href="http:www.sundance.org">Sundance Film Festival</a><br /> Park City. Utah, USA<br /> 20 -30 January 2011</p>
+<h3>February</h3>
+<p><a href="http://www.tropfest.com">Tropfest</a><br /> Sydney, Australia<br /> 20 February 2011</p>
+<a href="mailto:kehindeayanleye@gmail.com">Email You</a>
+<!-- additional contact -->
+<p><a href="about.html">About Film Folk</a></p>
+<p><a href="#top">Top of page</a></p>
+</body>
+
+</html>
+

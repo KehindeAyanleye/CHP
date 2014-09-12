@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EXAMPLE: Introducing CSS</title>
+		<link href="chap_ten.css" type="text/css" rel="stylesheet" />
+	</head>
+	<script>
+	body{
+	font-family: Arial, Verdana, Sans Serif;
+	}
+h1, h2{
+	color: #ee3e80;
+}
+p {
+	color: #665544;
+}
+	</script>
+	<body>
+		<p>See if ti works</p>
+		<h1>See if ti works</h1>
+		<h2>See if ti works</h2>
+	</body>
+</html>

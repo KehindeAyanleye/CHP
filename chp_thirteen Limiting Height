@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="chp_thirteen.css">
+	<title>Boxes</title>
+</head>
+<script>
+h2, p{
+	width: 400px;
+	font-size: 90%;
+	line-height: 1.2em;
+}
+h2{
+	color: red;
+	border-bottom: 1px solid red;
+}
+p{
+	min-height:40px; 
+	max-height:400px;
+}
+</script>
+<body>
+<h2>Fender Stratocaster</h2>
+<p class="one">The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster or The Fender Stratocaster orThe Fender Stratocaster or...</p>
+<h2>Gibson Les Paul</h2>
+<p class="two">The Gibson Ocasterstrat & The Gibson Ocasterstrat & The Gibson Ocasterstrat & The Gibson Ocasterstrat & The Gibson Ocasterstrat & The Gibson Ocasterstrat & The Gibson Ocasterstrat &...</p>
+</body>
+</html>

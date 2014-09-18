@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="chp_thirteen.css">
+	<title>Boxes</title>
+</head>
+<script>
+td.de{
+	min-width: 450px;
+	max-width: 650px;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+	color: red;
+}
+</script>
+<body>
+<tr>
+	<td><img src="stutern_logo.png" width="50" alt="Stutern Logo"/></td>
+	<td class="de">You are our everything. You made a way, you are our ransome, we hold this life for all you have done for us at the croos.</td>
+	<td>#0000000000000</td>
+</tr>
+</body>
+</html>

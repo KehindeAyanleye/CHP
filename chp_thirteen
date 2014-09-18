@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="chp_thirteen.css">
+	<title>Boxes</title>
+</head>
+<script>
+div{
+	height: 300px;
+	width: 400px;
+	background-color: #e13e80;
+}
+p {
+	height: 75%;
+	width: 75%;
+	background-color: #e1ddda;
+}
+</script>
+<body>
+<div>
+	<p>
+		The Moog company pioneered the commercial modular of voltage-conttrolled ananlos synthenisizer system in the early 1950s.
+	</p>
+</div>
+</body>
+</html>

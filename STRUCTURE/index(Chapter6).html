@@ -1,0 +1,209 @@
+<!-- Ther are several types of information that need to be displyed in a grid or table -->
+<!-- When representing information in a table, we need to think in terms of a grid made up of rows and columns ( a bit like a spreadsheet -->
+<!-- In this chapter I';ll be learning how to
+1. Use the four key elements for creating a table
+2. Represent complex data using table
+3. Add captions to table
+-->
+<!doctype html> 
+<html>
+	<head>
+		<title>Chapter 5 | What's a Table</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>15</td>
+				<td>45</td>
+				<td>60</td>
+			</tr>
+			<tr>
+				<td>56</td>
+				<td>23</td>
+				<td>56</td>
+			</tr>
+			<tr>
+				<td>54</td>
+				<td>12</td>
+				<td>17</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th></th>
+				<th scope="col">Saturday</th>
+				<th scope="row">Sunday</th>
+			</tr>
+			<tr>
+				<th scope="row">Tickets sold</th>
+				<td>120</td>
+				<td>135</td>
+			</tr>
+			<tr>
+				<th scope="row">Total sales</th>
+				<td>$600</td>
+				<td>$568</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th></th>
+				<th>9am</th>
+				<th>10am</th>
+				<th>11am</th>
+				<th>12am</th>
+			</tr>
+			<tr>
+				<th>Monday</th>
+				<td colspan="2">Geography</td>
+				<td>Math</td>
+				<td>Art</td>
+			</tr>
+			<tr>
+				<th>Tuesday</th>
+				<td colspan="3">Gym</td>
+				<td>Home Ec</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th></th>
+				<th>AAA</th>
+				<th>BBB</th>
+				<th>CCC</th>
+			</tr>
+			<tr>
+				<th>6pm - 7pm</th>
+				<td  rowspan="2">Movie</td>
+				<td>Comy</td>
+				<td>Nesw</td>
+			</tr>
+			<tr>
+				<th>7pm - 8pm</th>
+				<td>Jive</td>
+				<td>Mix</td>
+			</tr>
+		</table>
+		<hr/>
+		<br />
+		<table>
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Income</th>
+					<th>Expenditure</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th>
+					<td>100</td>
+					<td>566</td>
+				</tr>
+				<tr>
+					<th>Jan</th
+					<td>100</td>
+					<td>566</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>978</td>
+					<td>64346</td>
+				</tr>
+			</tfoot>
+		</table>
+		<!-- OLD CODE: WIDTH & SPACING -->
+		<table width="400" cellpadding="10" cellspacing="">
+			<tr>
+				<th width="150"></th>
+				<th>Witdrawn</th>
+				<th>Credit</th>
+				<th width="150">Balance</th>
+			</tr>
+			<tr>
+				<th>January</th>
+				<td>256</td>
+				<td>34</td>
+				<td>2323</td>
+			</tr>
+				<tr>
+				<th>Spe</th>
+				<td>256</td>
+				<td>34</td>
+				<td>2323</td>
+			</tr>
+		</table>
+		<!-- OLD CODE: BORDER & BACKGROUND-->
+		<table border="2" bgcolor="#efefef"></table>
+		<tr>
+			<th width="150"></th>
+			<th>Withdrawn</th>
+			<th>Credit</th>
+			<th width="150" bgcolor="#ccccc">Balance</th>
+		</tr>
+		<tr>
+			<th>January</th>
+			<td>250.00</td>
+			<td>660.00</td>
+			<td bgcolor="#cccccc">410.25</td>
+		</tr>
+		<hr/>
+
+		<!-- Final example -->
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th scope="col">Home starter hosting</th>
+					<th scope="col">Premium Business hosting</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Disk Space</th>
+					<td>250mb</td>
+					<td>1gb</td>
+				</tr>
+				<tr>
+					<th scope="row">Bandwidth</th>
+					<td>5gb per month</td>
+					<td>50gb per month</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td colspan="2">Signup now and save 10%!</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

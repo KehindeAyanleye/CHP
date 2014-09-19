@@ -1,0 +1,24 @@
+/* color name */
+body {
+	background-color: #efefef;
+	background-color: hsl(0,0%,78%;);
+	color: #efefef;
+	padding: 10px;
+	margin: 20px;
+}
+p{
+	background-color: DarkCyan;
+	
+}
+/* hex code */
+i{
+	background-color:  #ee3e80;
+}
+/* rgb value*/
+b{
+	background-color:  rgb(100,100,90);
+}
+p, i, b{
+	padding: inherit;
+	margin: inherit;
+}

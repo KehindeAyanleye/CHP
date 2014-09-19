@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+}
+p{
+	width: 300px;
+	padding: 50px;
+	border: 20px solid #0088dd;
+}
+p.three{
+	list-style-type: 
+;
+list-style-position: 
+	text-align: left;	
+}
+a{
+	cursor: text;
+}
